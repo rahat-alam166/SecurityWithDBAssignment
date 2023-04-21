@@ -4,7 +4,7 @@ import com.genspark.SecurityAssignment.entity.User;
 import com.genspark.SecurityAssignment.service.UserCreateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+//test
 @RestController
 @RequestMapping("/home")
 public class MyController
