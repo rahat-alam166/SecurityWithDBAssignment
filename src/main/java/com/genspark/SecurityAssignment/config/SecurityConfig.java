@@ -37,7 +37,7 @@ public class SecurityConfig
                 .hasRole("NORMAL")
                 .requestMatchers("home/admin")
                 .hasRole("ADMIN")
-                .requestMatchers("/home/public", "/home/add")
+                .requestMatchers("/home/public", "/home/add", "/favicon.ico")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
