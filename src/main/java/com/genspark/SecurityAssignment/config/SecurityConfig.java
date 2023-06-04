@@ -1,5 +1,5 @@
 package com.genspark.SecurityAssignment.config;
-
+//Useless comment
 import com.genspark.SecurityAssignment.service.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
